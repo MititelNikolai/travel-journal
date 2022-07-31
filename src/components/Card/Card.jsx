@@ -9,7 +9,12 @@ const Card = props => {
 				<div className='card__title'>
 					<img src={Point} alt='Location point'></img>
 					<p className='card__location'>{props.location}</p>
-					<a className='card__google-maps' href={props.googleMaps}>
+					<a
+						className='card__google-maps'
+						href={props.googleMaps}
+						target='_blank'
+						rel='noreferrer'
+					>
 						View on Google Maps
 					</a>
 				</div>

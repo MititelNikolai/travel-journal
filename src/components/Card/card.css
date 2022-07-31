@@ -1,0 +1,61 @@
+.card__container {
+	padding: 2.5rem 1.75rem;
+	display: grid;
+	grid-template-columns: 0.5fr 3fr;
+	gap: 1.2rem;
+}
+.card__title {
+	display: inline-flex;
+	align-items: center;
+}
+.card__location {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.64rem;
+	line-height: 0.75rem;
+	letter-spacing: 0.17rem;
+	color: var(--text-color);
+	margin-left: 0.25rem;
+}
+
+.card__google-maps {
+	font-weight: 400;
+	font-size: 0.64rem;
+	line-height: 0.75rem;
+	text-decoration-line: underline;
+	color: var(--color-gray);
+	margin-left: 0.75rem;
+}
+.card__location-title {
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 1.9rem;
+	color: var(--text-color);
+	margin-bottom: 1rem;
+}
+.card__date {
+	font-weight: 700;
+	font-size: 0.64rem;
+	line-height: 0.75rem;
+	color: #2b283a;
+	margin-bottom: 0.5rem;
+}
+.card__location-desc {
+	font-weight: 400;
+	font-size: 0.65rem;
+	line-height: 150%;
+	color: var(--text-color);
+}
+
+@media screen and (max-width: 600px) {
+	.card__location {
+		letter-spacing: 0.1rem;
+	}
+	.card__location-title {
+		font-size: 1.2rem;
+		/*	line-height: 1rem;*/
+	}
+	.card__container {
+		padding: 1.5rem 0.75rem;
+	}
+}

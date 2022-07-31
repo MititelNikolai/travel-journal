@@ -1,0 +1,19 @@
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--color-red);
+	height: 7.81vh;
+}
+.header__logo {
+	height: 1.5rem;
+	width: 1.5rem;
+	margin-right: 0.44rem;
+}
+.header__title {
+	font-weight: 500;
+	font-size: 0.91rem;
+	line-height: 1.125rem;
+	letter-spacing: -0.075rem;
+	color: var(--color-white);
+}
